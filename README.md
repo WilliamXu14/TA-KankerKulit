@@ -4,4 +4,4 @@ This is the code used to finish my undergraduate final project with the title "S
 
 To use the model, transfer learning was used. I used pretrained model that is provided by Keras to classify ImageNet dataset. ResNet and DenseNet was chosen to classify the data. After training, I got DenseNet with 169 channel as the best model to classify the data with 79,82% accuracy, 79% Cancer Recall, and 80% Non-Cancer Recall.
 
-Note: In the code, the training and validating data is split randomly. To split it evenly across all class, test_train_split could be used.
+Note: In the code, the training and validating data are split randomly. To split it evenly across all class, test_train_split could be used.
